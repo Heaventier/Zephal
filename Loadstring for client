@@ -35,7 +35,7 @@ local STRING_VALUE_NAME = mathRandom(1000000, 9999999);
 
 
 if RobloxGui:FindFirstChild("V6") then RobloxGui:FindFirstChild("V6"):Destroy(); print("Refreshed"); end
-local Variables = loadstring(game:HttpGet("https://raw.githubusercontent.com/Heaventier/Zephal/main/Execution%20UI"))()
+local Variables = loadstring(game:HttpGet("https://raw.githubusercontent.com/Heaventier/Zephal/main/Execution%20UI%20V2"))()
 
 Variables.UI.Main.Active = true
 Variables.UI.Main.Draggable = true
